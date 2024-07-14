@@ -1,16 +1,17 @@
 
+import React from 'react'
+import Navbar from './components/Navbar'
+import Product from './components/Product'
 
-import './App.css'
-
-function App() {
-  
-
-  return (
-    <> 
-    <h1>E-Commerce App </h1>
-    
+export const App = () => {
+  return ( 
+    <>  
+     <Navbar/> 
+     <Product/>
     </>
-  )
-}
 
+  )
+} 
+ 
 export default App
+
